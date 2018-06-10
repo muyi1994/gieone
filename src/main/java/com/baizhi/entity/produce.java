@@ -6,8 +6,6 @@ public class produce {
     private String password;
     private String email;
     private String url;
-
-
     public String getEmail() {
         return email;
     }
