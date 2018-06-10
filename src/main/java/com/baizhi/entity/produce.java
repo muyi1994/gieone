@@ -1,8 +1,34 @@
 package com.baizhi.entity;
 
-/**
- * Created by 木易 on 2018/6/10.
- */
+
 public class produce {
+    private String name;
+    private String password;
+    private String email;
+    public produce() {
+    }
+
+    public produce(String name, String password) {
+
+        this.name = name;
+        this.password = password;
+    }
+
+    public String getName() {
+
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
 }
 
